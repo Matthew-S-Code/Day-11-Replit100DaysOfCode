@@ -1,0 +1,14 @@
+print("How many seconds are in a year?")
+leapYear =input("Is this year a leap year?, Yes or No: ")
+if leapYear == "Yes" or leapYear == "yes":
+  min1 = 60 
+  hour1 = 60 * min1 
+  day = 24 * hour1 
+  year1 = 366 * day
+  print(year1)
+if leapYear == "No" or leapYear == "no":
+  min1 = 60 
+  hour1 = 60 * min1 
+  day = 24 * hour1 
+  year1 = 365 * day
+  print(year1)
